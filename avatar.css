@@ -42,10 +42,10 @@ SVG Presentation Attributes:
     fill: #000056;
 }
 
-.eye {
+.eye {fill: #FFF0FF;
 }
 
-.arm {
+.arm {fill: blue;
 }
 
 .shoe {
@@ -73,7 +73,7 @@ SVG Presentation Attributes:
 #shirt {
 }
 
-#cape {
+#cape {fill: green;
 }
 
 #mouth {
