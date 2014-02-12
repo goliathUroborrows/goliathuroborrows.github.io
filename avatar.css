@@ -39,16 +39,16 @@ SVG Presentation Attributes:
 	stroke: #FFF000;
     stroke-width: 1;
 	*/
-    fill: #000056;
+    fill: #FFFFFF;
 }
 
 .eye {fill: #FFF0FF;
 }
 
-.arm {fill: blue;
+.arm {fill: #08ff18;
 }
 
-.shoe {
+.shoe {fill: #f8893f
 }
 
 .left {
@@ -70,7 +70,7 @@ SVG Presentation Attributes:
 #neck {
 }
 
-#shirt {
+#shirt {fill: #000056;
 }
 
 #cape {fill: green;
@@ -79,7 +79,7 @@ SVG Presentation Attributes:
 #mouth {
 }
 
-#pants {
+#pants {fill: #ff98a7;
 }
 
 #left-arm {
