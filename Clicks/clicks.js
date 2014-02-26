@@ -9,12 +9,11 @@ $(window).on("click", function (e) {
 });
 function randomMargin() {
     return Math.random() * 100 - 90;
-}
-*/
+}*/
 var vx = Math.random() * 10 - 5;
 var vy = Math.random() * 10 - 5;
-var x = $(window).width / 2;
-var y = $(window).height / 2;
+var x = $(window).width() / 2;
+var y = $(window).height() / 2;
 var theta = 0;
 var vtheta = Math.PI / 180;
 var r = 60;
@@ -40,6 +39,5 @@ setInterval(function () {
     } else if (y > $(window).height()) {
         y = $(window).height();
         vy = -vy;
-    }
-, 20); 
 */
+}, 20);
