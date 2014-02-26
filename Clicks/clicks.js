@@ -1,6 +1,6 @@
 /*global $*/
 /*jslint sloppy:true, browser: true*/
-$("h1.page-title").text("It worked!");
+$("h1.page-title").text("Hello World!");
 $(window).on("click", function (e) {
     $("img.logo").css({left: e.clientX,
                        top: e.clientY});
